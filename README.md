@@ -13,7 +13,7 @@ Esse codigo faz parte do curso de Dominando os testes de software do Eduardo Pir
 * **Moq:** Biblioteca para criação de objetos simulados (mocks) durante os testes.
 
 ## 💻 Conceitos Utilizados
-*  **TDD - Test Driven Development**  é uma metodologia onde os testes são escritos antes do código original. Ambos evoluem juntos, garantindo uma alta coerência entre o código e os testes, além de promover maior qualidade e confiabilidade no desenvolvimento.
+*  **TDD - Test Driven Development**  Uma metodologia onde os testes são escritos antes do código original. Ambos evoluem juntos, garantindo uma alta coerência entre o código e os testes, além de promover maior qualidade e confiabilidade no desenvolvimento.
 
 *  **Arrange, Act, Assert:** Uma abordagem para estruturar testes de unidade de forma clara e organizada
     *  **Arrange:** Nesta etapa, você deve preparar o ambiente para o teste, como instanciar e preparar objetos.
@@ -21,6 +21,10 @@ Esse codigo faz parte do curso de Dominando os testes de software do Eduardo Pir
     *  **Act:** Nesta etapa, você executa a ação ou o comportamento que deseja testar. Como acionar um método.
       
     *  **Assert:** Nesta etapa, você verifica o resultado esperado do teste. Você compara o resultado obtido com o resultado esperado usando asserções (assertions).
+
+*   **Fact:** Identifica um método de teste como um fato independente.
+    
+*  **Trait:** Adiciona metadados aos testes para facilitar a organização e categorização.
 
 *  **Mock:** Criação objetos simulados para testar dependências em isolamento.
   
